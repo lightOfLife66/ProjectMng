@@ -35,7 +35,6 @@
 		450A5E3A207207AA0062C570 /* BaseSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450A5E39207207AA0062C570 /* BaseSearchViewController.m */; };
 		450A5E46207239CC0062C570 /* HomeClickHotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 450A5E45207239CC0062C570 /* HomeClickHotView.m */; };
 		450A5E4920723E290062C570 /* HomeHotCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 450A5E4720723E280062C570 /* HomeHotCollectionViewCell.m */; };
-		4514933F20889B7400D98203 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4514933E20889B7400D98203 /* TestViewController.m */; };
 		4521AB42207AF63400A118FC /* LoginTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 458DC59F207A1BAE003F96C0 /* LoginTableViewCell.m */; };
 		4521AB45207B3DFE00A118FC /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4521AB44207B3DFE00A118FC /* RegisterViewController.m */; };
 		4521AB48207B3F9700A118FC /* BaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4521AB47207B3F9700A118FC /* BaseNavViewController.m */; };
@@ -137,8 +136,6 @@
 		450A5E45207239CC0062C570 /* HomeClickHotView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeClickHotView.m; sourceTree = "<group>"; };
 		450A5E4720723E280062C570 /* HomeHotCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeHotCollectionViewCell.m; sourceTree = "<group>"; };
 		450A5E4820723E290062C570 /* HomeHotCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeHotCollectionViewCell.h; sourceTree = "<group>"; };
-		4514933D20889B7400D98203 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		4514933E20889B7400D98203 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		4521AB43207B3DFE00A118FC /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		4521AB44207B3DFE00A118FC /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		4521AB46207B3F9700A118FC /* BaseNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavViewController.h; sourceTree = "<group>"; };
@@ -279,6 +276,7 @@
 				450A5E122071EBC80062C570 /* Contast */,
 				450A5E082071DBEF0062C570 /* Tool */,
 				4502ACCB2069DFA900A92128 /* Home */,
+				4502ACCF2069DFA900A92128 /* ThirdPart */,
 				4502ACD02069DFA900A92128 /* Me */,
 				4502ACD42069DFA900A92128 /* Cart */,
 				4502ACD82069DFA900A92128 /* Base */,
@@ -291,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				4502ACCC2069DFA900A92128 /* Controller */,
+				4502ACCD2069DFA900A92128 /* Model */,
 				4502ACCE2069DFA900A92128 /* View */,
 			);
 			path = Home;
@@ -301,10 +300,15 @@
 			children = (
 				4502ACE02069E15800A92128 /* HomeViewController.h */,
 				4502ACE12069E15800A92128 /* HomeViewController.m */,
-				4514933D20889B7400D98203 /* TestViewController.h */,
-				4514933E20889B7400D98203 /* TestViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		4502ACCD2069DFA900A92128 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		4502ACCE2069DFA900A92128 /* View */ = {
@@ -322,6 +326,13 @@
 				456716E820738FDA00868B0B /* HomeTabHeader.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		4502ACCF2069DFA900A92128 /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdPart;
 			sourceTree = "<group>";
 		};
 		4502ACD02069DFA900A92128 /* Me */ = {
@@ -904,7 +915,6 @@
 				4502ACE82069E24300A92128 /* MeViewController.m in Sources */,
 				450A5E0E2071DCAC0062C570 /* NSDate+UIExtension.m in Sources */,
 				450A5E0B2071DC600062C570 /* Util.m in Sources */,
-				4514933F20889B7400D98203 /* TestViewController.m in Sources */,
 				45326E03208847E8006A9C73 /* PageControlView.m in Sources */,
 				4502ACE22069E15800A92128 /* HomeViewController.m in Sources */,
 				45326E00208847E8006A9C73 /* PageControlCollectionViewCell.m in Sources */,
