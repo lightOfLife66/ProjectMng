@@ -276,7 +276,6 @@
 				450A5E122071EBC80062C570 /* Contast */,
 				450A5E082071DBEF0062C570 /* Tool */,
 				4502ACCB2069DFA900A92128 /* Home */,
-				4502ACCF2069DFA900A92128 /* ThirdPart */,
 				4502ACD02069DFA900A92128 /* Me */,
 				4502ACD42069DFA900A92128 /* Cart */,
 				4502ACD82069DFA900A92128 /* Base */,
@@ -289,7 +288,6 @@
 			isa = PBXGroup;
 			children = (
 				4502ACCC2069DFA900A92128 /* Controller */,
-				4502ACCD2069DFA900A92128 /* Model */,
 				4502ACCE2069DFA900A92128 /* View */,
 			);
 			path = Home;
@@ -302,13 +300,6 @@
 				4502ACE12069E15800A92128 /* HomeViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		4502ACCD2069DFA900A92128 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		4502ACCE2069DFA900A92128 /* View */ = {
@@ -326,13 +317,6 @@
 				456716E820738FDA00868B0B /* HomeTabHeader.m */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		4502ACCF2069DFA900A92128 /* ThirdPart */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ThirdPart;
 			sourceTree = "<group>";
 		};
 		4502ACD02069DFA900A92128 /* Me */ = {
